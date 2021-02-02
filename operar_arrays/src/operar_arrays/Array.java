@@ -47,7 +47,7 @@ public class Array {
 			 suma+= x[i];
 			
 		}
-                  System.out.print(suma);
+                  System.out.print(suma);     
 	}
 	
 }
