@@ -11,6 +11,7 @@ public class Array {
 		System.out.println();
 		rellenar_array(n);
 		System.out.println();
+		sumar_array(n);
 		
 		
 	}
@@ -24,9 +25,9 @@ public class Array {
 		
 	}
 	
-	//Metodo que imprima un Array
+	//Metodo que imprime un Array
 	
-	public static void  imprimir_array(int x[]) {
+	public static void imprimir_array(int x[]) {
 		int i=0;
 		
 		for ( i=0;i<x.length;i++) {
@@ -37,5 +38,16 @@ public class Array {
 	}
 	
 
+	//Metodo sumar Array
+	
+	public static void sumar_array(int x[]) {
+		int i=0;
+		int suma=0;
+           for ( i=0;i<x.length;i++) {
+			 suma+= x[i];
+			
+		}
+                  System.out.print(suma);
+	}
 	
 }
