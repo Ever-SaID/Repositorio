@@ -38,7 +38,6 @@ public class Array {
 	}
 	
 
-	//Metodo sumar elementos de un Array   
 	
 	public static void sumar_array(int x[]) {
 		int i=0;
